@@ -178,6 +178,12 @@ article h2 {
   border-radius: 4px;
 }
 
+#formacao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media screen and (min-width: 768px) {
     #skill-container {
       grid-template-columns: 1fr 1fr;
